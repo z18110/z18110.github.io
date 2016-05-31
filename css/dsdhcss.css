@@ -1,0 +1,108 @@
+.hide {
+    display:none!important
+}
+.hidden {
+    visibility:hidden
+}
+.mg-nav-fix .mask {
+    position:fixed;
+    z-index:10;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0);
+    display:none
+}
+.mg-nav-fix .main {
+    position:absolute;
+    z-index:11;
+    left:0;
+    top:40px;
+    color:#fff
+}
+.mg-nav-fix .nav-p {
+    width: 145px;
+    height: 40px;
+    line-height: 30px;
+    background: url(/tmweb/image/xhds/menu-bg.png) no-repeat;
+    /*background: url(../image/menu-bg.png) no-repeat;*/
+    background-size: 100% 100%;
+    padding-left: 8px;
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+    left: -105px;
+    -webkit-transition: all .15s ease;
+}
+.mg-nav-fix img {
+    width:10px
+}
+.mg-nav-fix .nav-p.expend,.mg-nav-fix .nav-p.show {
+    left:0
+}
+.nav-c {
+    margin-top:-0.3em;
+    display:none
+}
+.nav-c>li {
+    margin-bottom:1px
+}
+.nav-c>li span {
+    display:inline-block;
+    background:rgba(158,158,158,0.6);
+    font-size:12px;
+    height:30px;
+    line-height:30px;
+    padding-left:8px;
+    padding-right:8px
+}
+.nav-c>li span.disabled {
+    color:rgba(255,255,255,.5)
+}
+.flash {-webkit-animation: flash 2s both; }
+@-webkit-keyframes flash {from, 25%,50%,75%, to { opacity: 1;} 37.5%, 62.5%,87.5%{ opacity: 0;}}
+
+/*num*/
+.phimg2{
+    position:absolute;width:15px;top:3px;z-index: 999;right:10%;
+}
+.phimg3{
+    position:absolute;bottom:3.7em;right:3px;z-index: 999;
+    width: 2.5em;font-size:0.8em;background: rgba(0,0,0,0.8);color:#fff;
+}
+.col-md-6{
+    width:50%;
+    float:left;
+    position:relative;
+    min-height:1px;
+    display:block;
+    box-sizing:border-box;
+}
+.col1{
+    width: 7em;
+    float: right;
+    padding-right: 0.5em ;
+    font-size: 0.9em
+}
+.th1{
+    color:#fff;
+}
+.th2{
+    color:#fff;
+}
+.num1{
+    width: 13%!important;
+    max-width: 2em;
+   /* min-width: 1.2em;*/
+    /*margin-left: -0.4em!important;*/
+    margin-right: 1%!important;"
+}
+.numsp1{
+    position:absolute;
+    z-index: 999;
+    bottom:16%;
+    left: 30%;
+    font-size:16px;
+    color:#fff;
+}

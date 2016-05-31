@@ -1,0 +1,184 @@
+html, body {
+    color:#222;
+    font-family:Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;
+    margin:0 auto;
+    padding: 0;
+    text-decoration: none;
+    height: 100%;
+    max-width:828px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin:0;
+    padding:0;
+}
+img {
+    border:0;
+}
+ol, ul {
+    list-style: none outside none;
+    margin:0;
+    padding: 0;
+}
+a {
+    color:#000000;
+    text-decoration: none;
+}
+.clr {
+    display:block;
+    clear:both;
+    height:0;
+    overflow:scroll;
+}
+.swiper-container {
+    width: 100%;
+    height:110%;
+	min-height:600px;
+	max-height:650px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+#pagination {
+    position:absolute;
+    /*bottom:100px;*/
+    /*width:100%*/
+    height: 20px;
+
+}
+#pagination .swiper-pagination-bullet {
+    /*width:9.5%;*/
+    float:left;
+    margin:0 0 0 6.15%;
+    background:0;
+    opacity:1;
+    z-index: 999;
+
+}
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin-top: 0.2em;
+    margin-bottom: 2.2em;
+    margin-left: 0.6em;
+}
+.swiper-container-vertical>.swiper-pagination-bullets{
+    top:55%;
+}
+.swiper-pagination-bullet {
+    /*background:#41203f;*/
+    width:1%;
+    height:1%;
+    /*padding-left:1% ;*/
+    background:#fff;
+    /*padding-top: 5%;*/
+    /*padding-bottom:5%;*/
+    /*padding: 2% 0 2% 1%;*/
+    opacity:1;
+    font-size: 0.5em;
+
+}
+.swiper-pagination-bullet-active{
+    /*margin-left:10% ;*/
+    /*width:40px;*/
+    height:1%;
+    /*padding-left:1% ;*/
+    /*background:#fff;*/
+    display: none;
+    font-size: 1em;
+}
+.swiper-pagination-bullet {
+    background:#e4e4e4;
+    width:30px;
+    height:30px;
+    z-index: 999;
+    line-height:30px;
+    font-size:0.8em;
+    border-radius:50px;
+    border: 3px solid #FFFFFF;
+    display:block;
+    font-style:normal;
+    text-align:center;
+    /*margin:0 auto;*/
+    color:#ffffff;
+    -moz-box-shadow: 2px 2px 4px #e4e4e4; /* Firefox */
+    -webkit-box-shadow: 2px 2px 4px #e4e4e4; /* Safari 和 Chrome */
+    box-shadow: 2px 2px 4px #e4e4e4; /* Opera 10.5+ */
+}
+
+.swiper-pagination-bullet-active {
+    background:mediumvioletred;
+    /*background-image: url(image/ph-01.png);*/
+    width:50px;
+    height:50px;
+    z-index: 999;
+    line-height:50px;
+    font-size:1.1em;
+    border-radius:50px;
+    display:block;
+    border: 3px solid #FFFFFF;
+    font-style:normal;
+    text-align:center;
+    margin:0 auto;
+    color:#ffffff;
+    margin-left: 0em!important;
+    -moz-box-shadow: 2px 2px 4px #e4e4e4; /* Firefox */
+    -webkit-box-shadow: 2px 2px 4px #e4e4e4; /* Safari 和 Chrome */
+    box-shadow: 2px 2px 4px #e4e4e4; /* Opera 10.5+ */
+}
+.swiper-pagination-bullets i:nth-child(1){
+    background: #b72a7c;
+}
+.swiper-pagination-bullets i:nth-child(2){
+    background: #e0b019;
+}
+.swiper-pagination-bullets i:nth-child(3){
+    background: #6d609e;
+}
+.swiper-pagination-bullets i:nth-child(4){
+    background: #007cc3;
+}
+.swiper-pagination-bullets i:nth-child(5){
+    background: #3bb3c2;
+}
+.swiper-pagination-bullets i:nth-child(6){
+    background: #5e686e;
+}
+.swiper-pagination-bullets i:nth-child(7){
+    background: #974578;
+}
+.swiper-pagination-bullets i:nth-child(8){
+    background: #84c225;
+}
+.swiper-pagination{
+    width: 10%;
+    left: 0;
+    /*height: ;*/
+    /*opacity: 0.5;*/
+    margin-top:10px ;
+}
+.cz{
+    border-left:0px dashed #000;
+    background-image:url(../image/16.png) ;
+}
+.phimg1{
+    width: 100%;margin-top:1em;
+}
+.container{
+    width: 80%;right: 0.5em;position: absolute
+}
+.container2{
+    width: 90%;margin: 0 auto;padding-top: 1em;padding-bottom: 1em;
+}

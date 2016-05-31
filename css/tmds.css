@@ -1,0 +1,1688 @@
+html, body {
+    color:#222;
+    font-family:'Microsoft YaHei','Helvitica','Verdana','Tohoma,Arial','san-serif';
+    margin:0 auto;
+    padding: 0;
+    text-decoration: none;
+    height: 100%;
+    max-width:828px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin:0;
+    padding:0;
+}
+img {
+    border:0;
+}
+ol, ul {
+    list-style: none outside none;
+    margin:0;
+    padding: 0;
+}
+a {
+    color:#000000;
+    text-decoration: none;
+}
+.clr {
+    display:block;
+    clear:both;
+    height:0;
+    overflow:hidden;
+}
+
+.copyright a{color:#666;}
+
+body { background-color:#fff; font-size:14px; }
+
+body  .mainmenu li {   margin-top:2%; margin-left:2%; width:96%; overflow:hidden; position:relative; min-height:100px;}
+
+body  .mainmenu li a { display:block;  color:#FFF; overflow: hidden }
+
+body  .mainmenu li a img { width:100%; height: auto; float:left;}
+
+body  .mainmenu li a p{ width:0%; color:#FFF; padding:15px 0; display: block; position: relative;}
+body  .mainmenu li a p b{ display:block; padding:0px 10px; font-size:16px;  font-weight:normal;  line-height:26px; text-align:left; text-overflow:ellipsis; white-space: nowrap; overflow:hidden}
+body  .mainmenu li a p span { display: block;
+    padding: 0px 10px;
+    text-align: right;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: left;
+    text-overflow:ellipsis; white-space: nowrap; overflow:hidden}
+
+
+
+body  .mainmenu li i{ background: url(../images/PIX.png) no-repeat;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 10px 10px 0 10px;}
+
+body .mainmenu li a p:after {
+    content: " ";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    right:-12px;  }
+
+
+body  .mainmenu li a p{ float:left}
+body  .mainmenu li a img{ float:right;}
+
+body  .mainmenu li:nth-child(4n+1) { background-color:#FFFFFF;}
+body  .mainmenu li:nth-child(4n+2) { background-color:#FFFFFF;}
+body  .mainmenu li:nth-child(4n+3) { background-color:#FFFFFF;}
+body  .mainmenu li:nth-child(4n+4) { background-color:#FFFFFF;}
+
+body  .mainmenu li:nth-child(4n+1) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0)  rgba(0,0,0,0)  #ff9999}
+body  .mainmenu li:nth-child(4n+2) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0) rgba(0, 0, 0, 0) #f2c15b ;}
+body  .mainmenu li:nth-child(4n+3) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0)  rgba(0,0,0,0)  #a1bbe0;}
+body  .mainmenu li:nth-child(4n+4) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0) #e0c6a1;}
+
+
+
+
+
+
+body  .mainmenu li:nth-child(2n+1) i{ background: url(../images/PIX.png) no-repeat;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 10px 10px 0 10px;}
+body  .mainmenu li:nth-child(2n+2) i{background: url(../images/PIX2.png) no-repeat;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 10px 10px 0 10px;}
+
+body .mainmenu li a p:after {
+    content: " ";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+}
+body  .mainmenu li:nth-child(2n+1) a p:after{ right:-12px;  }
+body  .mainmenu li:nth-child(2n+2) a p:after{ left:-12px;}
+
+
+body  .mainmenu li:nth-child(2n+1) a p{ float:left}
+body  .mainmenu li:nth-child(2n+1) a img{ float:right;}
+body  .mainmenu li:nth-child(2n+2) a p{ float:right}
+body  .mainmenu li:nth-child(2n+2) a img{ float:left;}
+body  .mainmenu li:nth-child(2n+2) a p b,body  .mainmenu li:nth-child(2n+2) a p span{ text-align:left;}
+
+
+
+body  .mainmenu li:nth-child(4n+1) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0)  rgba(0,0,0,0)  #ff9999}
+body  .mainmenu li:nth-child(4n+2) a p:after{ border-color:rgba(255, 255, 255, 0) #f2c15b rgba(0,0,0,0) rgba(0,0,0,0);}
+body  .mainmenu li:nth-child(4n+3) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0)  rgba(0,0,0,0)  #a1bbe0;}
+body  .mainmenu li:nth-child(4n+4) a p:after{ border-color:rgba(255, 255, 255, 0) #e0c6a1 rgba(0,0,0,0) rgba(0,0,0,0);}
+
+
+
+body  .mainmenu li:nth-child(2n+1) i{ background: url(../images/PIX.png) no-repeat;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 10px 10px 0 10px;}
+body  .mainmenu li:nth-child(2n+2) i{background: url(../images/PIX2.png) no-repeat;
+    background-size: 100%;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 10px 10px 0 10px;}
+
+body .mainmenu li a p:after {
+    content: " ";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+}
+body  .mainmenu li:nth-child(2n+1) a p:after{ right:-12px;  }
+body  .mainmenu li:nth-child(2n+2) a p:after{ left:-12px;}
+
+
+body  .mainmenu li:nth-child(2n+1) a p{ float:left}
+body  .mainmenu li:nth-child(2n+1) a img{ float:right;}
+body  .mainmenu li:nth-child(2n+2) a p{ float:right}
+body  .mainmenu li:nth-child(2n+2) a img{ float:left;}
+body  .mainmenu li:nth-child(2n+2) a p b,body  .mainmenu li:nth-child(2n+2) a p span{ text-align:left;}
+
+
+
+body  .mainmenu li:nth-child(4n+1) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0)  rgba(0,0,0,0)  #ff9999}
+body  .mainmenu li:nth-child(4n+2) a p:after{ border-color:rgba(255, 255, 255, 0) #f2c15b rgba(0,0,0,0) rgba(0,0,0,0);}
+body  .mainmenu li:nth-child(4n+3) a p:after{ border-color:rgba(0,0,0,0) rgba(0,0,0,0)  rgba(0,0,0,0)  #a1bbe0;}
+body  .mainmenu li:nth-child(4n+4) a p:after{ border-color:rgba(255, 255, 255, 0) #e0c6a1 rgba(0,0,0,0) rgba(0,0,0,0);}
+
+
+/*下载按钮*/
+.download-page .down-btn-item{
+    width: 100%;
+    max-width: 828px;
+    /*height: 10%;*/
+    position: fixed;
+    bottom:0px;
+    z-index: 999;
+    display: -webkit-box;
+    margin: 0 auto;
+    /*background-color: #ffffff;*/
+    /*-webkit-box-shadow: 0 -10px 10px #eee;*/
+    /*-moz-box-shadow: 0 -10px 10px #eee;*/
+    /*box-shadow: 0 -10px 10px #eee, *//*顶部阴影*/
+
+}
+.download-page .down-btn-item2{
+    width: 100%;
+    max-width: 828px;
+    /*height: 10%;*/
+    position: fixed;
+    bottom:0px;
+    z-index: 999;
+    /*display: -webkit-box;*/
+    margin: 0 auto;
+    /*background-color: #ffffff;*/
+    /*-webkit-box-shadow: 0 -10px 10px #eee;*/
+    /*-moz-box-shadow: 0 -10px 10px #eee;*/
+    /*box-shadow: 0 -10px 10px #eee, *//*顶部阴影*/
+
+}
+
+.download-page .down-btn-item .icon i{
+    width: 20px;
+    height: 24px;
+    margin: 10px 10px 0px 0px;
+    vertical-align: top;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.download-page .down-btn-item .icon em{
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+}
+.download-page .down-btn-item .phone-icon i{
+    background-image: url(../image/spite-icon-40x152.png);
+    background-position: 0px 0px;
+}
+.download-page .down-btn-item .android-icon i{
+    background-image: url(../image/spite-icon-40x152.png);
+    background-position: 0px -25px;
+}
+
+
+ol, ul {
+    list-style: none outside none;
+    margin:0;
+    padding: 0;}
+h1, h2, h3, h4, h5, h6 {
+    font-size:100%;	/*font-weight:normal;*/}
+h2{ font-size:16px;
+}
+h3 {font-size: 16px;
+    margin:0;
+    padding:0;
+    color: #6A5ACD;
+
+}
+.clr{ clear:both}
+
+.content p {color: #666666;font-size: 14px; line-height: 1.5; margin:0 auto; padding:0;}
+.content img {height: auto;max-width: 100%;border: 0 none;}	/*	*/
+
+.mainmenu2 li {
+    display: block;
+    position:relative;
+    z-index:1;
+    color: #222222;
+    border-top:1px solid #fff;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    border-bottom:1px solid #DDDDDD;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+    text-decoration: none;
+    background:#FFFFFF;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;}
+
+.mainmenu2 li:active {
+    background:#f5f5f5;
+    border-top:1px solid #f5f5f5;
+    border-left:1px solid #f5f5f5;
+    border-right:1px solid #f5f5f5;
+    font-weight:bold;
+    cursor:pointer;
+    text-decoration:none;
+}
+.mainmenu2 li a {
+    display:block;
+    padding: 0.7em 15px;
+    font-size:14px;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.mainmenu2 li a.left img {
+    float: left;
+    display:block;
+    margin-right: 10px;
+    left: 1px;
+    top: 0;
+    max-height: 77px;
+    max-width: 77px;
+    height: 77px;
+    width: 77px;
+    position: absolute;
+    background-color:#FFF;
+}
+
+ul.round li {
+    border:solid #FFFFFF;
+    border-width:0 0 1px 0;
+    padding:0px 10px 0 10px;
+}
+ul.round li:only-of-type {
+    border-width:0;
+}
+ul.round li:last-of-type {
+    border-width:0;
+}
+.round li, .round li span, .round li a {
+    line-height:22px;
+}
+.round li span {
+    display:block;
+    background:url(img/arrow3.png) no-repeat right 50%;
+    -webkit-background-size:8.5px 13px;
+    background-size:8.5px 13px;
+    padding:10px 20px 9px 0;
+    position:relative;
+    font-size:16px;
+    min-height: 22px;
+}
+
+.round li span.none em {
+    right: 0;
+}
+
+
+.round li.addr span{
+    font-size:14px;
+}
+
+.round li h2 {
+    color: #373B3E;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 10px 0 10px 0;
+    border-bottom:1px dotted #C6C6C6;
+}
+.round li span h2 {
+    color: #373B3E;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 6px 20px 6px 0;
+    border-bottom:0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.round li span img {
+    border: 0 none;
+    width:50px;
+    height:50px;
+    float:left;
+    margin:0 10px 0 0;
+}
+
+.round li span p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+
+.round li .text p {
+    line-height: 20px; font-size:14px; color:#666;
+}
+.round li img{
+    max-width:100%;
+    border:0;
+}
+
+.round li span em{
+    display:block;
+    -webkit-border-radius:20px;
+    border-radius:20px;
+    color:#FFF;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: -10px;
+    padding: 4px 8px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    text-shadow: 0 0 #FFFFFF;
+    font-style:normal;
+}
+
+.round li span.jifen em{
+    left:70px; font-style:normal;color: #1CC200;font-size: 18px;
+}
+
+.biaotou td{ color:#999;font-size: 12px;}
+
+.round li.title span{
+    padding: 5px 15px 4px 0;font-size: 14px; color:#666;text-shadow:0 1px #FFF;
+}
+
+.round li p{
+    padding:0; margin:2px 0; color:#999; font-size:12px;line-height: 14px;
+}
+
+
+.kuang th {
+    color: #333333;padding:0; font-size:16px; font-weight:normal;text-align: left;width: 79px;
+}
+.kuang td {
+    color: #999999;padding:2px 5px;
+}
+
+.detailcontent h2 {
+    color: #373B3E;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0 0 5px 0;
+    border-bottom:1px solid #C6C6C6;
+    margin-bottom:6px;
+}
+
+.detailcontent img {
+    max-width:100%;
+    border:0;
+}
+.zongjifen li{
+    width:33%;
+    float:left;
+    display:block;
+}
+.zongjifen li p{
+    display:block;
+    text-align:center;
+
+}
+.zongjifen li span{
+    display:block;
+    text-align:center;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder { color: #cccccc;}
+
+/* Start Dropdown Select */
+/* End Dropdown Select */
+
+.submit img{ width:15px; margin:-4px 10px 0 0;}
+
+.del img{ width:15px;width:15px; margin:-4px 10px 0 0;}
+
+.submit2 img{ width:15px; margin:-4px 10px 0 0;}
+
+.window .content p {
+    margin:10px 0 0 0;
+}
+
+
+
+/*page*/
+
+.pagination a {
+    margin: 0 ;
+    padding: 6px 27px;
+    border:1px solid #D1D1D1;
+    background:#fefefe;
+    border:1px solid #ABABAB;
+    background-image: linear-gradient(bottom, #E1E1E1 0%, #ffffff 100%);
+    background-image: -o-linear-gradient(bottom, #E1E1E1 0%, #ffffff 100%);
+    background-image: -moz-linear-gradient(bottom, #E1E1E1 0%, #ffffff 100%);
+    background-image: -webkit-linear-gradient(bottom, #E1E1E1 0%, #ffffff 100%);
+    background-image: -ms-linear-gradient(bottom, #E1E1E1 0%, #ffffff 100%);
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, #E1E1E1),
+            color-stop(1, #ffffff)
+    );
+    -webkit-box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    color:#666;
+    text-shadow:0 1px #fff;
+    display:block;
+}
+.pagination a:hover {
+    background-image: linear-gradient(bottom, #F5F2F2 0%, #ffffff 100%);
+    background-image: -o-linear-gradient(bottom, #F5F2F2 0%, #ffffff 100%);
+    background-image: -moz-linear-gradient(bottom, #F5F2F2 0%, #ffffff 100%);
+    background-image: -webkit-linear-gradient(bottom, #F5F2F2 0%, #ffffff 100%);
+    background-image: -ms-linear-gradient(bottom, #F5F2F2 0%, #ffffff 100%);
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, #F5F2F2),
+            color-stop(1, #ffffff)
+    );
+}
+.pagination a:active {
+    background-image: linear-gradient(bottom, #ffffff 0%, #E1E1E1 100%);
+    background-image: -o-linear-gradient(bottom,  #ffffff 0%, #E1E1E1 100%);
+    background-image: -moz-linear-gradient(bottom,  #ffffff 0%, #E1E1E1 100%);
+    background-image: -webkit-linear-gradient(bottom,  #ffffff 0%, #E1E1E1 100%);
+    background-image: -ms-linear-gradient(bottom,  #ffffff 0%, #E1E1E1 100%);
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, #ffffff),
+            color-stop(1, #E1E1E1)
+    );
+    -webkit-box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+.pagination .disabled a, .pagination .disabled a:hover {
+    background:none;
+    border:1px solid #cbcbcb;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+    color:A4A3A3;
+}
+
+#scroller ul {
+    list-style:none;
+    display:block;
+    float:left;
+    width:100%;
+    height:auto;
+    padding:0;
+    margin:0;
+    text-align:left;
+}
+
+#scroller li {
+
+    display:block; float:left;
+    width:auto; height:auto;
+    text-align:center;
+    font-size:0px;
+    padding:0;
+    position:relative;
+}
+#scroller li a{
+
+    display:block;
+    padding:0;
+    margin:0;
+}
+#scroller li p{
+    position:absolute;
+    z-index:2;
+    display:block;
+    width:100%;
+    bottom:0;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:#F4F4F4;
+    font-size:14px;
+    text-indent: 55px;
+    line-height:24px;
+    text-align: left;
+    text-indent: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding:0;
+    margin:0;
+}
+
+#indicator > li {
+    display:block; float:left;
+    list-style:none;
+    padding:0; margin:0;
+}
+
+
+#indicator > li {
+    text-indent:-9999em;
+    width:8px; height:8px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -o-border-radius:4px;
+    border-radius:4px;
+    background:#888;
+    overflow:hidden;
+    margin-right:4px;
+}
+
+
+#indicator > li:last-child {
+    margin:0;
+}
+
+/*tmds-list*/
+
+.mod-pictxt a:hover {
+    text-decoration: none;
+}
+
+.mod-pictxt li {
+    padding: 14px 0px;
+    overflow: hidden;
+    border-top: 1px solid rgba(239, 240, 242, 0.8);
+}
+
+.mod-pictxt li:first-child {
+    border: none;
+}
+
+.mod-pictxt h3 {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mod-pictxt p {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.2;
+    max-height: 2.4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.mod-pictxt.t1 li,
+.mod-pictxt1 li {
+    overflow: hidden;
+    min-height: 50px
+}
+
+.mod-pictxt.t1 h3,
+.mod-pictxt1 h3 {
+    margin-left: 114px;
+    white-space: nowrap;
+}
+
+.mod-pictxt.t1 h3 a,
+.mod-pictxt1 h3 a {
+    white-space: nowrap;
+}
+
+.mod-pictxt.t1 .no-pic h3,
+.mod-pictxt1 .no-pic h3 {
+    margin-left: 0px;
+}
+
+
+.mod-pictxt.t3 li,
+.mod-pictxt3 li {
+    padding-bottom: 8px;
+}
+
+
+.mod-pictxt.t3 p,
+.mod-pictxt3 p {
+    margin: 6px 40px 0 0;
+}
+
+
+.mod-pictxt.t4 h3,
+.mod-pictxt4 h3 {
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+.mod-pictxt h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 13px 0;
+    border-bottom: 1px solid #eff0f2;
+}
+
+.mod-pictxt.t3 .no-pic p,
+.mod-pictxt3 .no-pic p {
+    margin-right: 0;
+}
+
+.mod-pictxt a {
+    text-decoration: none !important;
+}
+
+/*2.分栏控件 mod-column*/
+.mod-column .devide-con {
+    display: table;
+    width: 100%;
+}
+
+.mod-column .devide-con > .cell {
+    display: table-cell;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+.mod-2column .cell {
+    width: 50%;
+    vertical-align: top;
+}
+
+.mod-3column .cell {
+    width: 33%;
+    vertical-align: top;
+}
+
+/*3.分隔符控件 mod-divider*/
+
+.mod-divider hr {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    margin: 0 auto;
+}
+
+/*4.留空符控件 mod-space*/
+
+/*5.标题控件 mod-title*/
+.mod-title h2 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+
+.mod-title.t1 h2 {
+    display: inline-block;
+    position: relative;
+    border-left: 6px solid;
+    padding: 0 13px;
+}
+
+.mod-title.t3 h2 {
+    display: inline-block;
+    padding-right: 13px;
+    position: relative;
+}
+
+.mod-title.t4 h2 {
+    display: inline-block;
+    padding: 13px 19px 9px 19px;
+    border-bottom: 3px solid;
+}
+
+
+/*6.链接控件 mod-link*/
+.mod-link h2 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+.mod-link a {
+    display: block;
+    width: 100%;
+}
+
+.mod-link.t1 h2, .mod-link.t2 h2 {
+    margin-left: 10px;
+}
+
+
+/*7.按钮控件 mod-button*/
+.mod-button a {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+
+
+/*8.文本控件 mod-text*/
+
+.mod-text i{
+    font-style:italic;
+}
+.mod-text a{
+    color: #1a8fda;
+}
+.mod-text > p {
+    margin: 0 0 16px 0;
+    text-indent: 2em;
+}
+
+.mod-text > p:last-child {
+    margin-bottom: 0px;
+}
+
+.mod-text u {
+    text-decoration: underline !important;
+}
+
+.mod-text i {
+    font-style: italic !important;
+}
+
+.mod-text b {
+    font-weight: bold !important;
+}
+
+/*段落控件 mod-para*/
+
+.mod-para > p {
+    margin-bottom: 16px;
+}
+
+.mod-para > p:last-child {
+    margin-bottom: 0px;
+}
+
+/*9.图集控件 mod-picgroup*/
+
+.mod-picgroup .pic-gp1 li {
+    padding-top: 1px;
+}
+
+.mod-picgroup .pic-gp2 li {
+    display: inline-block;
+    width: 47%;
+    padding: 2% 1% 0 1%;;
+    vertical-align: top;
+}
+
+.mod-picgroup .pic-gp3 li {
+    display: inline-block;
+    width: 28%;
+    /*padding: 2%;*/
+    vertical-align: top;
+}
+
+.module-drag .mod-picgroup .pic-gp3 li {
+    width: 28%;
+    padding: 2%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.mod-picgroup .pic-gp1 li p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    text-indent: 10px;
+    text-overflow: ellipsis;
+    height: 30px;
+    margin-top: -30px;
+    opacity: 0.9;
+    text-align: left;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.mod-picgroup .pic-gp2 li p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    text-indent: 10px;
+    text-overflow: ellipsis;
+    height: 24px;
+    margin-top: -24px;
+    opacity: 0.9;
+    text-align: left;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.mod-picgroup .pic-gp3 li p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    text-indent: 10px;
+    text-overflow: ellipsis;
+    height: 24px;
+    margin-top: -24px;
+    opacity: 0.9;
+    text-align: left;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.mod-picgroup li img {
+    width: 100%;
+}
+
+/*10.图片控件 mod-picgroup*/
+.mod-picone {
+    text-align: center;
+    margin-bottom: 0
+}
+
+.mod-picone a {
+    display: block;
+}
+
+.site-logo .mod-picone img {
+    width: auto;
+    height: 50px;
+    min-height: initial;
+    min-width: initial;
+}
+
+/*11.视频控件 mod-video*/
+
+.mod-video .video-play-icon .play-icon img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+/*.mod-focus .swipe-wrap img{max-height: 100%;}*/
+
+/*14.二维码控件 mod-qrcode*/
+
+/*15.分享控件 mod-share*/
+
+.mod-share .hd, .mod-share a {
+    display: inline-block;
+    background: url(../images/share.png) no-repeat;
+    background-size: 320px 39px;
+}
+
+.mod-share a {
+    width: 39px;
+    height: 39px;
+    vertical-align: top;
+    margin-left: 4px;
+}
+
+/*微信分享弹出框样式*/
+.wechat-pop h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.wechat-pop p {
+    font-size: 20px;
+}
+
+
+/*16.保存到桌面控件 mod-desk*/
+
+/*mobile单独使用组件*/
+/*模版导航组件*/
+
+.mod-themenav1 ul {
+    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    display: box;
+    box-orient: horizontal;
+    box-pack: center;
+    box-align: center;
+    width: 100%;
+}
+
+.mod-themenav1 li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    font-size: 14px;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 20%;
+}
+
+.mod-themenav1 a {
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    border-left: 1px solid;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mod-themenav1 li:first-child a {
+    border-left: 0;
+}
+
+.mod-themenav1 .more a {
+    padding: 0 8px;
+}
+
+.mod-themenav1 .more i {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    margin: 0 2px;
+    vertical-align: 3px;
+}
+
+.mod-themenav1 .dropbox ul {
+    display: block;
+}
+
+.mod-themenav1 .dropbox li {
+    line-height: 2.8em;
+    margin: 0 0.4em;
+    padding: 0 8px;
+    border-top: 1px solid;
+    white-space: nowrap;
+    width: auto;
+}
+
+.mod-themenav1 .dropbox li:first-child {
+    border-top: none;
+}
+
+.mod-themenav1 .dropbox a {
+    border: none
+}
+
+.mod-themenav3 li {
+    border-bottom: 1px solid;
+    text-align: left;
+}
+
+.mod-themenav3 li:first-child {
+    border-top: 0;
+}
+
+.mod-themenav3 a {
+    display: block;
+    width: 100%;
+    text-indent: 14px;
+    color: #dcdcdc;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    word-break: break-all;
+    white-space: nowrap;
+    line-height: 48px;
+}
+
+.mod-themenav4 .dropbox li {
+    line-height: 2.8em;
+    margin: 0 0.4em;
+    border-top: 1px solid;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.mod-themenav4 .dropbox li:first-child {
+    border-top: none;
+}
+
+.mod-themenav4 .dropbox li a {
+    padding: 0 1em;
+}
+
+.mod-themenav2 .dropbox a {
+    border: none
+}
+
+.mod-themenav-more .dropbox a {
+    min-width: 4em;
+}
+
+
+.kz-footer p, footer p {
+    text-indent: 0;
+    font-size: 12px;
+    width: 18em;
+    margin: auto;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.5em;
+    color: #909090;
+}
+
+/*文章页*/
+.phone-header > span {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: top;
+    padding-left: 1em;
+}
+
+.phone-header .cell {
+    display: block;
+    min-height: 50px;
+    width: auto;
+    text-align: left;
+    float: left;
+}
+
+.phone-header .cell div[class ^= mod-] {
+    margin: 0;
+}
+
+.phone-header .site-title,
+.phone-header .mod-column .cell:nth-child(2) {
+    margin-left: 10px;
+}
+
+.phone-header img {
+    vertical-align: top;
+}
+
+.site-title .mod-text>p {
+    text-indent: 0;
+}
+
+.phone-header .mod-picone {
+    padding: 0;
+}
+
+.phone-header .home img {
+    margin: 12px 10px 12px 0;
+    width: 25px;
+    height: 25px;
+    min-height: initial;
+    min-width: initial;
+}
+
+.phone-header .login img {
+    margin: 12px 6px 12px 0;
+    width: 25px;
+    height: 25px;
+    min-height: initial;
+    min-width: initial;
+}
+
+.header-theme2 .cell {
+    width: auto;
+    vertical-align: top;
+    float: none;
+    display: inline-block;
+}
+
+
+.article-hd .mod-title h2 {
+    font-size: 22px;
+}
+
+.article-content .mod-picone {
+    margin-bottom: 10px
+}
+
+
+.mod-button-load a {
+    display: block;
+}
+
+/*控件pc及mobile公用 begin
+div[class ^= mod-]{margin-bottom:2px;}
+*/
+
+
+.mod-focus .focus-w li {
+    position: relative;
+    text-align: center;
+}
+
+.mod-focus .focus-w li p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.5em;
+    line-height: 2.5em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: left;
+    font-size: 0.875em;
+    text-indent: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mod-focus .focus-w a:hover {
+    color: #fff;
+}
+
+.mod-focus .focus-ctr span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin: 0 2px;
+}
+
+.mod-focus .swipe-wrap > div {
+    position: absolute;
+    display: none;
+    line-height: 200px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mod-focus .swipe-wrap > div img{
+    vertical-align: top;
+}
+
+.mod-focus .swipe-wrap > div:nth-child(1) {
+    display: block;
+    visibility: visible;
+    line-height: 200px;
+}
+
+.mod-focus .swipe-wrap a {
+    display: block;
+}
+
+.mod-focus .swipe-wrap p {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 0 40% 0 14px;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: left;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 35px;
+    opacity: 0.9;
+}
+
+@import "http://changyan.itc.cn/upload/mobile/wap-css/wap-changyan2.css";
+@import "http://changyan.itc.cn/upload/mobile/wap-css/wap-scs/wap-default.css";
+.section-cbox-wap .cbox-post-wap .post-action-wap .action-issue-wap .issue-btn-wap .btn-mutual-wap .mutual-btn-wap {
+    background-image: none;
+}
+
+.mod-traffic_exchange .text, .traffic-exchange .text {
+    background: #fcf2d8;
+    font-size: 16px;
+    height: 40px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 40px;
+    max-width: 300px;
+}
+
+.mod-traffic_exchange a, .traffic-exchange a {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.crow-form-vcode input {
+    box-sizing: border-box;
+    padding-left: 8px;
+    height: 40px;
+    width: 80px;
+    margin-right: 20px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+}
+
+.crow-form-vcode img {
+    height: 38px;
+    width: 80px;
+    position: absolute;
+}
+
+.crow-form-box input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+}
+
+.crow-form-box p span {
+    color: red;
+}
+
+.crow-form-box p {
+    margin-bottom: 10px;
+    color: grey;
+    word-break: break-all;
+}
+
+.crow-form-box textarea {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    max-width: 100%;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+}
+
+.crow-config-form input {
+    height: 26px;
+}
+
+
+.mod-focus .focus-w li {
+    position: relative;
+    text-align: center;
+}
+
+.mod-focus .focus-w li p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.5em;
+    line-height: 2.5em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: left;
+    font-size: 0.875em;
+    text-indent: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mod-focus .focus-w a:hover {
+    color: #fff;
+}
+
+.mod-focus .focus-ctr span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin: 0 2px;
+}
+.mod-focus .swipe-wrap > div {
+    position: absolute;
+    display: none;
+
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.mod-focus .swipe-wrap > div:nth-child(1) {
+    display: block;
+    visibility: visible;
+
+}
+
+.mod-focus .swipe-wrap a {
+    display: block;
+}
+
+.mod-focus .swipe-wrap p {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 0 40% 0 14px;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: left;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 35px;
+    opacity: 0.9;
+}
+
+.mod-nav ul {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    display: box;
+    box-orient: horizontal;
+    box-pack: center;
+    box-align: center;
+    width: 100%;
+}
+
+.mod-nav li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    text-align: center;
+}
+
+.module .mod-nav ul {
+    float: left;
+}
+
+.mod-nav li a {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.mod-nav.t1 li,
+.mod-nav-theme1 li {
+    position: relative;
+}
+
+.mod-nav.t1 a,
+.mod-nav-theme1 a {
+    height: 16px;
+    line-height: 16px;
+    border-left: 1px solid;
+}
+
+.mod-nav.t1 li:first-child a,
+.mod-nav-theme1 li:first-child a {
+    border: none;
+}
+
+.mod-nav.t2 li,
+.mod-nav-theme2 li {
+    position: relative;
+}
+
+.mod-nav.t2 a,
+.mod-nav-theme2 a {
+    height: 16px;
+    line-height: 16px;
+    border-left: 1px solid;
+}
+
+.mod-nav.t2 li:first-child a,
+.mod-nav-theme2 li:first-child a {
+    border: none;
+}
+
+.mod-nav.t3 li,
+.mod-nav-theme3 li {
+    height: 48px;
+}
+
+.mod-nav-t3 a, .mod-nav.t3 a:hover,
+.mod-nav-theme3 a, .mod-nav-theme3 a:hover {
+    height: 16px;
+    line-height: 16px;
+    border-left: 1px solid;
+    color: #fff;
+}
+
+.mod-nav.t3 li:first-child a,
+.mod-nav-theme3 li:first-child a {
+    border: none;
+}
+
+.mod-pictxt a:hover {
+    text-decoration: none;
+}
+
+.mod-pictxt li {
+    padding: 14px 0px;
+    overflow: hidden;
+    border-top: 1px solid rgba(239, 240, 242, 0.8);
+}
+
+.mod-pictxt li:first-child {
+    border: none;
+}
+
+.mod-pictxt h3 {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mod-pictxt p {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.2;
+    max-height: 2.4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.mod-pictxt.t1 li,
+.mod-pictxt1 li {
+    overflow: hidden;
+    min-height: 50px
+}
+
+.mod-pictxt.t1 h3,
+.mod-pictxt1 h3 {
+    margin-left: 114px;
+    white-space: nowrap;
+}
+
+.mod-pictxt.t1 h3 a,
+.mod-pictxt1 h3 a {
+    white-space: nowrap;
+}
+
+.mod-pictxt.t1 .no-pic h3,
+.mod-pictxt1 .no-pic h3 {
+    margin-left: 0px;
+}
+
+
+.mod-pictxt.t3 li,
+.mod-pictxt3 li {
+    padding-bottom: 8px;
+}
+
+
+.mod-pictxt.t3 p,
+.mod-pictxt3 p {
+    margin: 6px 40px 0 0;
+}
+
+.mod-pictxt.t4 h3,
+.mod-pictxt4 h3 {
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+.mod-pictxt h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 13px 0;
+    border-bottom: 1px solid #eff0f2;
+}
+
+
+.mod-pictxt.t3 .no-pic p,
+.mod-pictxt3 .no-pic p {
+    margin-right: 0;
+}
+
+.mod-pictxt a {
+    text-decoration: none !important;
+}
+
+
+.mod-groublist-list .sort-handle{
+    background: url(../../.../../ui/images/ui-bg.png) no-repeat 0px -116px transparent;
+}
+
+body #SOHUCS .section-floatbar-wap{display: none!important;}
+img{max-width:100%;vertical-align:middle}
+.p1{
+    text-align: left;
+    font-size: 0.8em;
+    padding-top: 5px;
+    width:100%;
+    overflow:hidden;
+    text-overflow:ellipsis
+}
+.img1{
+    width:45%;
+    padding: 5px 5px
+}
+.kz-post .phone-header{
+    cursor: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+}
+
+.kz-post .header-theme2{
+    text-align: left;
+}
+
+.kz-post .phone-header .site-logo{
+    display: none;
+}
+
+.kz-post .phone-header .site-title{
+    display: block !important;
+    min-height: 44px;
+    width: auto;
+    margin-left: 14px;
+}
+.kz-post .phone-header .site-title .mod-text{
+    line-height: 44px;
+    font-size: 20px;
+}
+
+.kz-post .phone-header .login{
+    display: none;
+}
+
+.kz-post .phone-header .home{
+    display: block !important;
+    min-height: 44px;
+    width: auto;
+    color: white;
+    font-size: 24px;
+    padding-right: 12px;
+    line-height: 44px;
+}
+
+.phone-main-w .kz-post .phone-header .home .mod-picone{
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url(../images/home-post.png) no-repeat;
+    background-size: 24px 24px;
+}
+
+.phone-main-w .kz-post .phone-header .home .mod-picone a{
+    display: none;
+}
+
+.kz-post .phone-header .home .mod-picone a{
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url(../images/home-post.png) no-repeat;
+    background-size: 24px 24px;
+}
+
+.kz-post .phone-header .home .mod-picone a img{
+    display: none;
+}
+ol, ul {
+    list-style: none outside none;
+    margin:0;
+    padding: 0;}
+h1, h2, h3, h4, h5, h6 {
+    font-size:100%;	/*font-weight:normal;*/}
+h2{ font-size:16px;
+}
+h3 {font-size: 16px;
+    margin:0;
+    padding:0;
+    color: #6A5ACD;
+
+}
+.clr{ clear:both}
+
+img{max-width:100%;vertical-align:middle}
