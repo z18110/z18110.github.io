@@ -684,6 +684,8 @@ window.onload = function ()
 {
     JxHome.init();
 }
+/*
 $(window).resize(function() {
     window.location.href = "index.html";
 });
+*/
