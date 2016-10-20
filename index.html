@@ -1,102 +1,379 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-  
-<!--demo -->
-<div class="cover">
-            <div class="navbar">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="https://github.com/z18110"><span>z</span></a>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>个人简历-张伟 Resume of David Z.</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/alert.css">
+        <link rel="stylesheet" href="css/zwstyle.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <style>body{font-family: "Microsoft Yahei";}.toggle-menu i{margin: 0}.toggle-menu{padding: 0.5em 1em}.p1{font-family:"Microsoft Yahei";line-height: 3em;}.pd2{padding: 0 1em}</style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">您正在使用 <strong>老式</strong>浏览器。 请<a href="http://browsehappy.com/">升级浏览器</a> 。</p>
+        <![endif]-->
+        <!-- ie6 support-->
+	  <script src="js/es6-promise.min.js"></script>
+	  <!-- ie6 support e-->
+        <div class="site-bg"></div>
+        <div class="site-bg-overlay"></div>
+
+        <!-- TOP HEADER -->
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 hidden-xs">
+                        <p class="phone-info">TEL: <a href="tel:">18062110513</a></p>
                     </div>
-                    <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active">
-                                <a href="https://github.com/z18110">我的GitHub首页</a>
-                            </li>
-                            <li>
-                                <a href="#">关于</a>
-                            </li>
-                        </ul>
+                   
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="http://wpa.qq.com/msgrd?v=3&uin=382581385&site=qq&menu=yes" class="fa fa-qq"></a></li>
+                                <li><a href="##" onclick="wechat_alert()" class="fa fa-wechat"></a></li>
+                                <li><a href="http://z18110.github.io" class="fa fa-github-square"></a></li>
+                                <li><a href="tel:18062110513" onclick="phone_alert()" class="fa fa-phone"></a></li>
+                                <!--<li><a href="#" class="fa fa-weibo"></a></li>-->
+
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="cover-image" style="background-image: url(https://unsplash.imgix.net/photo-1418065460487-3e41a6c84dc5?q=25&amp;fm=jpg&amp;s=127f3a3ccf4356b7f79594e05f6c840e);"></div>
+        </div> <!-- .top-header -->
+
+
+        <div class="visible-xs visible-sm responsive-menu">
+            <a href="##" class="toggle-menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="show-menu">
+                <ul class="main-menu">
+                    <li>
+                        <a class="show-1 active homebutton" href="#"><i class="fa fa-home"></i>首页</a>
+                    </li>
+                    <li>
+                        <a class="show-2 aboutbutton" href="#"><i class="fa fa-user"></i>关于我</a>
+                    </li>
+                    <li>
+                        <a class="show-3 projectbutton" href="#"><i class="fa fa-bookmark"></i>作品集</a>
+                    </li>
+                    <li>
+                        <a class="show-5 contactbutton" href="#"><i class="fa fa-envelope"></i>联系我</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+		
+        <div class="container" id="page-content">
+
+            <div class="row">
+                <div class="col-md-9 col-sm-12 content-holder">
+                    <!-- CONTENT -->
+                    <div id="menu-container">
+                        
+                        <div class="logo-holder logo-top-margin hidden-xs">
+                            <a href="#" class="site-brand"><img src="images/logo.png" alt="Z"></a>
+                        </div>
+                        
+                    
+                        
+                        <div id="menu-1" class="homepage home-section text-center">
+                            <div class="welcome-text">
+                                <h2 class="hidden-xs"><strong class="green"> </strong></h2>
+                                <hr style="width: 20em;"/>
+                                <p class="p1">姓名：张伟  </p>
+                                <p class="p1">28岁</p>
+                                <p class="p1">Web开发工程师</p>
+                                <p class="p1">E-mail : z18110@126.com</p>
+
+                                <p class="subscribe-form subscribe-text">感谢!</p>
+                            </div>
+                        </div>
+
+                        <div id="menu-2" class="content about-section">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8">
+                                    <div class="box-content profile">
+                                        <h3 class="widget-title">关于我</h3>
+                                        <div class="profile-thumb">
+                                            <img src="images/zw.jpg" alt="">
+                                        </div>
+                                        <div class="profile-content">
+                                            <h5 class="profile-name">张伟</h5>
+                                            <span class="profile-role">Web开发工程师<br/>PHP爱好者</span>
+                                            <li>主攻web前端+PHP开发;</li>
+                                            <li>熟练运用HTML、CSS、Js、JQ、PHP等开发各类项目;</li>
+                                            <li>熟悉移动端开发，了解主流浏览器之间差异;</li>
+                                            <li>善用微信公众平台，开发微信应用、微信小程序;</li>
+                                            <li>了解IOS、android、微信等web环境，能利用最新技术解决业务快速发展过程中的各类业务场景问题。</li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="box-content">
+                                        <h3 class="widget-title">经历</h3>
+                                        <p><i>2015.11-至今</i><br/>武汉太美科技有限公司<br/><span style="font-size:0.8em">Web开发工程师</span></p>
+                                        <p><i>2014.8-2015.11</i><br/>武汉都尤科技有限公司<br/><span style="font-size:0.8em">网络项目主管</span></p>
+                                        <p><i>2012.10-2014.8</i><br/>深圳市广道高新技术有限公司<br/><span style="font-size:0.8em">前端开发工程师</span></p>
+                                        <p><i>2011.7-2012.10</i><br/>深圳红柿子科技有限公司<br/><span style="font-size:0.8em">网络部助理</span></p>
+                                        <div class="about-social hide">
+                                            <ul>
+                                                <li><a href="#" class="fa fa-qq"></a></li>
+                                                <li><a href="#" class="fa fa-wechat"></a></li>
+                                                <li><a href="#" class="fa fa-github-square"></a></li>
+                                                <li><a href="#" class="fa fa-phone"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-7 col-sm-5">
+                                    <div class="box-content" style="padding: 0">
+                                        <canvas id="canvas" style="width: 100%;height: 100%"></canvas>
+                                        <!--<p id="youtext" >name</p>-->
+                                        <img id="youtext" style="display:none" src="images/youtext.png" />
+                                        <img id="designIco" style="display:none" src="images/cs3.png" />
+                                        <img id="h5ico" style="display:none" src="images/h5ico.png" />
+                                        <img id="cs3" style="display:none" src="images/designIco.png" />
+                                        <!--    <h3 class="widget-title">工作室</h3>
+                                            <div class="project-item">
+                                                <img src="images/7.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>Great Nature Capture</h4>
+                                            </div>
+                                        </div>
+                                    -->
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-sm-7">
+                                    <div class="box-content">
+                                        <h3 class="widget-title"><b>专业技能</b> | <span style="font-size:0.7em">Technical Skills</span></h3>
+                                        <ul class="progess-bars">
+                                            <li>
+                                                <span>HTML CSS 90%</span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                            <span>Javascript 85%</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                            </div>
+                                            </li>
+                                            <li>
+                                                <span>PHP MySQL 85%</span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span>PHOTOSHOP 80%</span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="menu-3" class="content gallery-section">
+                            <div class="box-content">
+                                <h3 class="widget-title">作品集</h3>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        	<a target="_blank" href="http://www.timell.cn/tmwx">
+                                            <img src="images/list01.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>太美官网&nbsp;www.timell.cn</h4>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        	<a href="##" onclick="img_alert('images/tmapi.jpg','','最美中国颜大赛')">
+                                            <img src="images/tmds.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>最美中国颜大赛</h4>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                            <a target="_blank" href="http://www.mmtv.cc">
+                                            <img src="images/zmy.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>最美颜pc站</h4>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        	<a href="##" onclick="img_alert('images/tmwechat.jpg','','太美微信')">
+                                            <img src="images/tmwechat.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>太美官方微信</h4>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                        	 <a href="javascript:void(0)" onclick="img_alert('images/funclub.jpg','','负责App内相关H5页，部分交互页开发')">
+                                            <img src="images/funclub-icon.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>FUNCLUB App相关开发</h4>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                            <a href="javascript:void(0)" onclick="img_alert('images/jkt-wx.jpg','','负责网站开发，App内相关开发')">
+                                            <img src="images/jkt.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>技考通网站，App相关页面</h4>
+                                            </div>
+                                                </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                            <a target="_blank" href="http://www.sanddytool.com">
+                                            <img src="images/sd.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>三迪石材网站</h4>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                            <a target="_blank" href="http://www.hszkgw.com/">
+                                            <img src="images/hsjx.jpg" alt="">
+                                            <div class="project-hover">
+                                                <h4>华中师范大学继续教育项目</h4>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="project-item">
+                                            <a href="javascript:void(0)" onclick="img_alert('images/hx-wx.jpg','','汉学相关网站开发')">
+                                                <img src="images/hx.jpg" alt="">
+                                                <div class="project-hover">
+                                                    <h4>汉学教育移动端网站</h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="menu-4" class="content contact-section">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="box-content">
+                                        <h3 class="widget-title">联系我</h3>
+                                        <form class="contact-form hide">
+                                            <fieldset>
+                                                <input type="text" class="name" id="name" placeholder="Name...">
+                                            </fieldset> 
+                                            <fieldset>
+                                                <input type="email" class="email" id="email" placeholder="Email...">
+                                            </fieldset> 
+                                            <fieldset>
+                                                <input type="text" class="subject" id="subject" placeholder="Subject...">
+                                            </fieldset>
+                                            <fieldset>
+                                                <textarea name="message" id="message" cols="30" rows="4" placeholder="Message.."></textarea>
+                                            </fieldset>
+                                            <fieldset>
+                                                <input type="submit" class="button" id="button" value="Send Message">
+                                            </fieldset>
+                                        </form>
+                                        <form class="contact-form" style="margin: 5em 0 ">
+                                            <fieldset>
+                                              <p><a href="http://wpa.qq.com/msgrd?v=3&uin=382581385&site=qq&menu=yes" target="_blank" class="fa fa-3x fa-qq col-sm-2 col-xs-3"></a><a class="fa fa-3x fa-wechat col-sm-2 col-xs-3" onclick="img_alert('images/wechat.jpg','','')"></a><a href="http://z18110.github.io" target="_blank" class="fa fa-3x fa-github col-sm-2 col-xs-3"></a><a href="tel:18062110513" onclick="phone_alert()" class="fa fa-3x fa-phone col-sm-2 col-xs-3"></a> </p>
+                                            </fieldset>
+                                        </form>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 hidden-sm">
+                    
+                    <nav id="nav" class="main-navigation hidden-xs hidden-sm">
+                        <ul class="main-menu">
+                            <li>
+                                <a class="show-1 active homebutton" href="#"><i class="fa fa-home"></i>首页</a>
+                            </li>
+                            <li>
+                                <a class="show-2 aboutbutton" href="#"><i class="fa fa-user"></i>关于我</a>
+                            </li>
+                            <li>
+                                <a class="show-3 projectbutton" href="#"><i class="fa fa-bookmark"></i>作品集</a>
+                            </li>
+                            <li>
+                                <a class="show-5 contactbutton" href="#"><i class="fa fa-envelope"></i>联系我</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+<div style="height: 5em;"></div>
+        <!-- Footer  s-->
+        <div class="site-footer hidden-xs" >
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h1 class="text-inverse">z18110</h1>
-                        <p class="text-inverse">这里是个人blog.</p>
-                        <br>
-                        <br>
-                        <a href="https://github.com/z18110" class="btn btn-lg btn-primary">项目主页</a>
+                        <p>Copyright &copy; 2016 David Z. </p>
                     </div>
                 </div>
             </div>
         </div>
-        
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="jumbotron">
-              <h1>Hello, world!</h1>
-              <p>...</p>
-              <a class="btn btn-primary btn-large">more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="well">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
-                ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed
-                odio dui.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-   <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 50%;" contenteditable="true">50% Complete</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        <!-- Footer e -->
 
-<!-- demo e-->
+        <script src="js/vendor/jquery.min.js"></script>
+        <script src="js/bobo.js"></script>
+        <script src="js/alert.min.js"></script>
+        <script src="js/index.js"></script>
+<script type="text/javascript">
+    function disp_alert(){swal({title: "Sweet!",text: "Here's a custom image.",imageUrl: "images/list01.jpg",showConfirmButton:false });};
+    function wechat_alert(){swal({imageUrl: "images/wechat.jpg",showConfirmButton:false });}
+    function phone_alert(){swal({title: "18062110513",text: "",imageUrl: "",showConfirmButton:false });};
+    function img_alert(data,title,msg ){swal({imageUrl: data,title: title,text: msg,showConfirmButton:false });}
+</script>
 
 
-  
-  </body>
+    </body>
 </html>
