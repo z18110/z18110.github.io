@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Digital Clock</title>
+    <!-- Tailwind CSS CDN for pristine typography and layout design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #0B0F19;
+            color: #E2E8F0;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between py-10 px-4 md:px-8 bg-slate-950">
+
+    <!-- Container -->
+    <div class="max-w-4xl mx-auto w-full bg-slate-900/60 rounded-2xl border border-slate-800/80 p-6 md:p-10 shadow-2xl backdrop-blur-md">
+        
+        <!-- Language Switch Banner/Selector -->
+        <div class="flex justify-end mb-6">
+            <div class="inline-flex rounded-lg p-0.5 bg-slate-950 border border-slate-800/80">
+                <button id="btn-en" onclick="setLanguage('en')" class="px-3 py-1.5 text-xs font-semibold rounded-md transition-all bg-indigo-600 text-white shadow-sm">English</button>
+                <button id="btn-zh" onclick="setLanguage('zh')" class="px-3 py-1.5 text-xs font-semibold rounded-md transition-all text-slate-400 hover:text-slate-200">简体中文</button>
+            </div>
+        </div>
+
+        <!-- Document Header (English) -->
+        <header class="border-b border-slate-800 pb-8 mb-8 lang-en">
+            <div class="flex items-center space-x-3 mb-3">
+                
+            </div>
+            <h1 class="text-3xl font-bold tracking-tight bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                Digital Clock &middot; Privacy Policy
+            </h1>
+            <p class="text-sm text-slate-400 mt-2">
+                This Privacy Policy applies to the mobile application <strong>Digital Clock</strong> developed and operated by AS Coding.
+            </p>
+        </header>
+
+        <!-- Document Header (Chinese, Hidden by Default) -->
+        <header class="border-b border-slate-800 pb-8 mb-8 lang-zh hidden">
+            <div class="flex items-center space-x-3 mb-3">
+                
+            </div>
+            <h1 class="text-3xl font-bold tracking-tight bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                数字化时钟 &middot; 隐私政策
+            </h1>
+            <p class="text-sm text-slate-400 mt-2">
+                本隐私政策适用于由 AS Coding 开发并运营的移动应用程序<strong>《数字化时钟》 (Digital Clock)</strong>。
+            </p>
+        </header>
+
+        <!-- Main Body (English) -->
+        <article class="space-y-8 text-sm md:text-base text-slate-300 leading-relaxed lang-en">
+            
+            <!-- Section 1 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">01.</span> Data Collection &amp; Usage Commitment
+                </h2>
+                <div class="p-4 bg-slate-950/40 rounded-xl border border-slate-800/40 space-y-2">
+                    <p class="font-semibold text-slate-200">
+                        Our Absolute Commitment: We do not collect, upload, transmit, or share any of your personal privacy data.
+                    </p>
+                    <p class="text-slate-400">
+                        "Digital Clock" is designed as a pure offline local utility and visual clock application. All core functionalities and data operations are processed <strong>completely within your local device's sandbox</strong>. We promise and guarantee that:
+                    </p>
+                    <ul class="list-disc pl-5 mt-1 text-slate-400 space-y-1">
+                        <li>We do NOT actively request or collect any Personally Identifiable Information (PII), such as names, phone numbers, contact lists, or geographical location data.</li>
+                        <li>We do NOT read any non-public logs or external files outside of the application's sandbox.</li>
+                        <li>We do NOT implement any background silent listening/monitoring modules. The application is guaranteed to provide full and premium clock services even in a completely offline environment.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 2 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">02.</span> App Permissions &amp; Technical Necessity
+                </h2>
+                <p>
+                    In order to correctly render high-quality clock animations and provide a fluid, seamless user experience on the Android operating system, the application may rely on the following low-level system mechanical capabilities:
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+                    <div class="p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+                        <span class="text-xs font-mono text-purple-400 font-semibold block mb-1">LOCAL STATE PERSISTENCE</span>
+                        <h3 class="font-bold text-slate-200 text-sm mb-1">Local Configuration Storage</h3>
+                        <p class="text-xs text-slate-400 leading-normal">
+                            This app utilizes standard Android SharedPreferences and sandbox mechanisms to locally persist your personalized clock preferences, such as the 12/24-hour mode setting and the chosen ambient glow theme index. This configuration data remains 100% on your local device and is never uploaded to any cloud server.
+                        </p>
+                    </div>
+                    <div class="p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+                        <span class="text-xs font-mono text-purple-400 font-semibold block mb-1">UI REFRESH &amp; TICK ALIGNMENT</span>
+                        <h3 class="font-bold text-slate-200 text-sm mb-1">System Clock Refreshing</h3>
+                        <p class="text-xs text-slate-400 leading-normal">
+                            The app only uses standard, non-sensitive hardware refresh mechanisms to trigger accurate second-by-second time updates and smooth visual transitions (Canvas drawing). This app does NOT request or contain sensitive permissions such as access to SMS, camera, contacts, or photo gallery.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">03.</span> Third-Party Services &amp; Advertisement Policy
+                </h2>
+                <p>
+                    To maintain the cleanest design and user experience, this application contains <strong>no advertisement tracking modules (Ad Trackers)</strong>, and <strong>does not integrate any third-party SDKs</strong> with data-collection, social-sharing, analytics, or behavioral-profiling activities. Your usage history and configuration state will never be mapped or sold to third-party advertising companies.
+                </p>
+            </section>
+
+            <!-- Section 4 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">04.</span> Regulatory Compliance &amp; Safe Standards
+                </h2>
+                <div class="space-y-2 text-slate-400">
+                    <p>
+                        This Privacy Policy fully complies with the core requirements of the <strong>Google Play Developer Program Policies</strong> and is aligned with the disclosure standards of leading global privacy regulations:
+                    </p>
+                    <ul class="list-decimal pl-5 space-y-1">
+                        <li><strong>GDPR Compliance:</strong> For users in the European Union (EU), since we do not operate any server infrastructure for cloud storage or user registration, your data is never transferred or processed across regions.</li>
+                        <li><strong>CCPA Compliance:</strong> We confirm and guarantee that we do not sell or share any user data with any third party.</li>
+                        <li><strong>COPPA Compliance:</strong> Given that this product does not perform online identity verification or data collection, it is entirely safe and compliant for users of all ages, including children under 13, providing a zero-risk, clean clock service.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 5 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">05.</span> Revisions &amp; Updates to This Policy
+                </h2>
+                <p>
+                    As the product scales and updates, or in response to changes in Google Play Console Review policies, this Privacy Policy may be updated occasionally. We recommend checking this page for any modifications when downloading updates. Updates become effective immediately upon being published on this dedicated hosting link.
+                </p>
+            </section>
+
+            <!-- Section 6 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">06.</span> Contact Us
+                </h2>
+                <p>
+                    If you have any questions, compliance feedback, or suggestions about our Privacy Policy or your data, feel free to contact us via the developer compliance email. We will address your inquiry with a detailed and professional response as quickly as possible:
+                </p>
+                <div class="mt-2 text-slate-200 bg-slate-950/20 py-3.5 px-6 rounded-lg border border-slate-800/60 inline-flex items-center space-x-2 font-mono text-sm">
+                    <svg class="w-4 h-4 text-indigo-400 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                    <span>Developer Support Email:</span>
+                    <a href="mailto:z18110125@gmail.com" class="text-indigo-400 underline hover:text-indigo-300">z18110125@gmail.com</a>
+                </div>
+            </section>
+
+        </article>
+
+        <!-- Main Body (Chinese, Hidden by Default) -->
+        <article class="space-y-8 text-sm md:text-base text-slate-300 leading-relaxed lang-zh hidden">
+            
+            <!-- Section 1 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">01.</span> 数据收集与使用承诺 (Data Collection &amp; Usage)
+                </h2>
+                <div class="p-4 bg-slate-950/40 rounded-xl border border-slate-800/40 space-y-2">
+                    <p class="font-semibold text-slate-200">
+                        核心承诺：我们不收集、不上传、不传输、不共享您任何个人隐私数据。
+                    </p>
+                    <p class="text-slate-400">
+                        《数字化时钟》作为一款纯粹的本地时间及视觉时钟工具应用，其所有的主体功能与数据运算均<strong>完全在用户本地设备沙盒内执行</strong>。我们承诺并保证：
+                    </p>
+                    <ul class="list-disc pl-5 mt-1 text-slate-400 space-y-1">
+                        <li>绝不主动请求或收集您的个人身份信息 (PII)、姓名、电话、联系人或地理定位数据。</li>
+                        <li>绝不读取任何第三方非公共日志或应用外文件。</li>
+                        <li>绝不设置任何后台静默监听模块，保证应用在完全断网的环境下依然可以提供完整优质的时钟显示服务。</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 2 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">02.</span> 权限声明与技术必要性说明 (App Permissions)
+                </h2>
+                <p>
+                    为了在 Android 操作系统上向您正确渲染高级桌面时钟动效与提供平滑流畅的体验，应用程序在运行时可能依赖以下底层底层能力：
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+                    <div class="p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+                        <span class="text-xs font-mono text-purple-400 font-semibold block mb-1">LOCAL STATE PERSISTENCE</span>
+                        <h3 class="font-bold text-slate-200 text-sm mb-1">本地配置持久化存储</h3>
+                        <p class="text-xs text-slate-400 leading-normal">
+                            本应用使用标准 Android SharedPreferences 及沙盒机制来持久化记录您的时钟个性化风格：如 12/24小时制切换状态、选定的微光极光背景主題索引。此项配置信息同样百分之百保存在本地，不上传云端。
+                        </p>
+                    </div>
+                    <div class="p-4 bg-slate-950/50 rounded-lg border border-slate-800/50">
+                        <span class="text-xs font-mono text-purple-400 font-semibold block mb-1">FORCE ALIGNMENT SLEEP</span>
+                        <h3 class="font-bold text-slate-200 text-sm mb-1">系统时钟刷新率与保活</h3>
+                        <p class="text-xs text-slate-400 leading-normal">
+                            应用程序仅需要极少数非敏感的基本硬件刷新机制来触发精确至秒级的时间计算与界面动态渐变转场（Canvas 绘制）。本应用绝不调用也不包含读取短信、摄像头、相册等敏感权限。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">03.</span> 第三方SDK与广告数据政策 (Third-Party Services)
+                </h2>
+                <p>
+                    为了保持最纯净的界面设计与极致的使用体验，本应用<strong>没有任何广告跟踪模块 (Ad Trackers)</strong>，亦<strong>没有集成任何具有信息收集功能的第三方社交分享、大数据分析、广告联盟或精准画像 SDK</strong>。因此，您的使用数据永远不会被画像并转售给第三方关联广告公司。
+                </p>
+            </section>
+
+            <!-- Section 4 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">04.</span> 合规性保证 (Regulatory Compliance)
+                </h2>
+                <div class="space-y-2 text-slate-400">
+                    <p>
+                        本隐私声明书在编写及合规定位上，全面满足 <strong>Google Play 开发者政策 (Google Play Developer Program Policies)</strong> 的通用条款，并充分考虑以下国际隐私保护规范 decentralised 披露要求：
+                    </p>
+                    <ul class="list-decimal pl-5 space-y-1">
+                        <li><strong>GDPR 适格声明：</strong>针对欧盟各成员国用户，由于我们完全不具有云端存储或收集您个人注册信息的服务器基础设施，您无须担心数据被跨国处理。</li>
+                        <li><strong>CCPA 加州消费者隐私保护法案：</strong>我们确认并声明绝不从任何用户处“售卖”(Sell) 或“共享”(Share) 任何范围的数据资产。</li>
+                        <li><strong>儿童个人信息保护法 (Children's Online Privacy Protection Rule - COPPA)：</strong>鉴于本产品不执行任何在线身份核验与信息采集，本应用完全适用于所有年龄段用户（包括13岁以下儿童），提供零隐患的洁净计时器。</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 5 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">05.</span> 隐私条款的变更与修订 (Policy Update)
+                </h2>
+                <p>
+                    随着产品版本的迭代推进或受 Google 商店审查规则修正调整之需要，本隐私权声明可能会不定期更新。建议您在 Google Play 平台下载应用或于关联页面审查本条款最新变动。所有更新在这一特定托管链接页面公布后立即生效。
+                </p>
+            </section>
+
+            <!-- Section 6 -->
+            <section class="space-y-3">
+                <h2 class="text-lg font-bold text-indigo-400 flex items-center">
+                    <span class="mr-2">06.</span> 联系我们 (Contact Channels)
+                </h2>
+                <p>
+                    如果您在使用《数字化时钟》App 的过程中，有关于隐私安全政策方面的疑问、纠纷投诉，或者有优秀的优化升级创意，敬请通过以下电子邮箱直接与我们取得联系。我们在接到邮件后的会第一时间予以专业、详尽答复：
+                </p>
+                <div class="mt-2 text-slate-200 bg-slate-950/20 py-3.5 px-6 rounded-lg border border-slate-800/60 inline-flex items-center space-x-2 font-mono text-sm">
+                    <svg class="w-4 h-4 text-indigo-400 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                    <span>开发者合规邮箱：</span>
+                    <a href="mailto:z18110125@gmail.com" class="text-indigo-400 underline hover:text-indigo-300">z18110125@gmail.com</a>
+                </div>
+            </section>
+
+        </article>
+    </div>
+
+    <!-- Page Footer -->
+    <footer class="text-center text-xs text-slate-500 mt-12 space-y-1 font-mono tracking-widest">
+        <div>DIGITAL CLOCK PRIVACY CENTER &copy; 2026 AS CODING</div>
+        <div class="text-slate-600 text-[10px]">HOSTED SECURELY ON GITHUB PAGES &middot; VALID BY ARCHITECT</div>
+    </footer>
+
+    <!-- Interactive Multilingual Switch Logic -->
+    <script>
+        function setLanguage(lang) {
+            const enElements = document.querySelectorAll('.lang-en');
+            const zhElements = document.querySelectorAll('.lang-zh');
+            const btnEn = document.getElementById('btn-en');
+            const btnZh = document.getElementById('btn-zh');
+            
+            if (lang === 'en') {
+                enElements.forEach(el => el.classList.remove('hidden'));
+                zhElements.forEach(el => el.classList.add('hidden'));
+                
+                // Toggle Button styling matching Obsidian UI theme
+                btnEn.className = "px-3 py-1.5 text-xs font-semibold rounded-md transition-all bg-indigo-600 text-white shadow-sm";
+                btnZh.className = "px-3 py-1.5 text-xs font-semibold rounded-md transition-all text-slate-400 hover:text-slate-200";
+                
+                document.documentElement.lang = "en";
+                document.title = "Privacy Policy - Digital Clock";
+            } else {
+                enElements.forEach(el => el.classList.add('hidden'));
+                zhElements.forEach(el => el.classList.remove('hidden'));
+                
+                // Toggle Button styling
+                btnEn.className = "px-3 py-1.5 text-xs font-semibold rounded-md transition-all text-slate-400 hover:text-slate-200";
+                btnZh.className = "px-3 py-1.5 text-xs font-semibold rounded-md transition-all bg-indigo-600 text-white shadow-sm";
+                
+                document.documentElement.lang = "zh-CN";
+                document.title = "隐私政策 - 数字化时钟 (Digital Clock)";
+            }
+        }
+    </script>
+</body>
+</html>
